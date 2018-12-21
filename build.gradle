@@ -3,6 +3,7 @@ import java.util.regex.Matcher
 plugins {
     id 'java'
     id 'maven'
+    id 'maven-publish'
     id 'net.researchgate.release' version '2.6.0'
 }
 
