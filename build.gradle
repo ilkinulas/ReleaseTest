@@ -16,7 +16,6 @@ dependencies {
 }
 
 group = 'net.peakgames'
-version = '1.0.0'
 description = 'releasetester'
 sourceCompatibility = '1.8'
 
