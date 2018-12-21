@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'maven'
+    id 'net.researchgate.release' version '2.6.0'
+}
+
+repositories {
+    mavenLocal()
+    maven {
+        url = 'http://repo.maven.apache.org/maven2'
+    }
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+}
+
+group = 'net.peakgames'
+version = '1.0.0'
+description = 'releasetester'
+sourceCompatibility = '1.8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
